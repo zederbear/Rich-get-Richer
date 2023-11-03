@@ -8,17 +8,33 @@
 </head>
 <body>
     <div id="multiplier"><span id="multiplierSpan"></span><span>x</span></div>
-
     <div id="currency-container">
         <div class="currencyCo"><span class="moneyWord">Money </span><span id="money-gained" class="currency-amount">0</span></div>
         <div class="currencyCo"><span class="moneyWord">Money </span><span id="money-gained" class="currency-amount">0</span></div>
     </div>
-    
-    <div onclick="gainMoney()" class="button">Click!</div>
-    <div onclick="buyMoneyPerClick()" id="perclickupgrade" class="button"> 
-        ↑ Money Per Click
-        <div id="moneyperclickcost" class="cost">Cost: 10</div>
+    <div id="screen">
+        <div id="setting-buttons">
+            <div onclick="resetGameData()" id="reset" class="button">Reset</div>
+        </div>
+        <div id="lower-screen">
+            <div id="progress">
+                <div id="printer-outline">
+                    <div id="x-per-sec">
+                        <span id="moneyper"></span><span id="sss">/s</span>
+                    </div>
+                    <div id="printer-progress-bar"></div>
+                </div>
+            </div>
+            <div id="upgrade-buttons">
+                <div onclick="buyMoneyPerClick()" id="perclickupgrade" class="button"> 
+                    ↑ Money Per Print
+                    <div id="moneyperclickcost" class="cost">Cost: 10</div>
+                </div>
+                div
+            </div>
+        </div>
     </div>
+
 <script src="js/main.js" charset="UTF-8" type="text/javascript"></script>
 </body>
 </html>
