@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Rich get Richer</title>
+</head>
+<body>
+    <div id="multiplier"><span id="multiplierSpan"></span><span>x</span></div>
+
+    <div id="currency-container">
+        <div class="currencyCo"><span class="moneyWord">Money </span><span id="money-gained" class="currency-amount">0</span></div>
+        <div class="currencyCo"><span class="moneyWord">Money </span><span id="money-gained" class="currency-amount">0</span></div>
+    </div>
+    
+    <div onclick="gainMoney()" class="button">Click!</div>
+    <div onclick="buyMoneyPerClick()" id="perclickupgrade" class="button"> 
+        ↑ Money Per Click
+        <div id="moneyperclickcost" class="cost">Cost: 10</div>
+    </div>
+<script src="js/main.js" charset="UTF-8" type="text/javascript"></script>
+</body>
+</html>
+
+

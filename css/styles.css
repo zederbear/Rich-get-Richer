@@ -1,0 +1,77 @@
+* {
+    user-select: none;
+}
+
+#currency-container {
+    background-color: black;
+    display: block;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 10%;
+    height: 95vh;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+}
+
+#multiplier {
+    position: absolute;
+    right: 10px;
+}
+
+.currencyCo {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    width: calc(100% - 10px);
+    height: fit-content;
+}
+
+.moneyWord {
+    color: green;
+}
+
+.button {
+    background-color: cadetblue;
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-width: 2px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.cost {
+    background-color: burlywood;
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-width: 2px;
+}
+
+.currency-amount {
+    color: aliceblue;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+#moneyperclickcost {
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+}
+
+#perclickupgrade:hover #moneyperclickcost {
+    display: block;
+}
+
+body {
+    background-color: rgb(47, 44, 65);
+    justify-content: baseline;
+    display: flex;
+
+}
